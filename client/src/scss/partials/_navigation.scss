@@ -1,0 +1,119 @@
+.navi{
+    margin-top: 5%;
+    &__socialIcons{ 
+        img{
+            margin-top: 5px;
+            width: 90%;
+            float: right;
+        }   
+    }
+    &__socialIcons:first-child{
+        img{    
+            width: 50%;
+        }   
+    }
+    &__socialIcons:last-child{
+        img{ 
+            margin-top: -1px;  
+            width: 60%;
+            float: left;
+        }   
+    }
+    &__treeIcon{
+        img{
+            width: 30%;
+            float: right;
+        }
+    }
+    &__heading{
+        h1{
+            font-size: 42px;
+            font-family: Hoefler Text;
+            font-weight: 550;
+            letter-spacing: 2px;
+        }
+        h4{
+            font-family: Hoefler Text;
+            margin-top: 40%; 
+            text-align: center; 
+            letter-spacing: 0.7px;
+            font-weight: 500;  
+        }
+        h6{
+            margin-left: -15px;
+        }
+    }
+   &__heading:last-child{
+        h6{  
+        padding-left: 30px;
+        border-left:1px solid rgb(190, 187, 187);
+        }
+    }  
+}
+@media only screen and (max-width: 1000px){
+    .navi{
+        &__socialIcons{ 
+            display: none;  
+        }
+        &__socialIcons:first-child{
+                display: block;   
+                img{ 
+                    width: 30%;   
+                    float: left;    
+                }       
+        }
+        &__treeIcon{
+            img{
+                text-align: center;
+                margin-top: 24%;
+                margin-left: 20%;
+                width: 40%;  
+            }
+        }
+        &__heading{
+            h1{
+                font-size: 28px;
+                margin-top: 10%;
+            }
+            h4{
+                margin-top: 5%; 
+            } 
+        }    
+    }  
+}
+@media only screen and (max-width: 500px){
+    .navi{
+        &__socialIcons{ 
+            display: none;  
+        }
+        &__socialIcons:first-child{
+                display: block;   
+                img{ 
+                    width: 60%;   
+                    float: left;    
+                }       
+        }
+        &__treeIcon{
+            img{
+                margin-top: 50%;
+                width: 70%;   
+            }
+        }
+        &__heading{
+            h1{
+                margin-top: 16%;
+            }
+            h4{
+                margin-top: 10%; 
+            } 
+            h6{
+                cursor: pointer;
+                
+            }
+        }    
+    }  
+}
+
+
+
+

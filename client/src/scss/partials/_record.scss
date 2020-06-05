@@ -1,0 +1,60 @@
+.recordCont{
+    .table-wrapper-scroll-y {
+        display: block;
+        max-height: 500px;
+        margin: 0 auto;
+        max-width: auto;
+        overflow-y: auto;
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+    }
+    .table-wrapper-scroll-y th, td{
+          white-space: nowrap;
+    }
+    .header{
+        background: url('../../images/night.jpg') no-repeat;
+        height: 145%;
+        background-size: cover; 
+    }
+    &__recordTable{
+        background-color:white;
+        margin-top: 13.7%;
+        margin-bottom: 10%;
+        padding: 10px;
+        margin-bottom: 10%;
+        -webkit-box-shadow: 10px 9px 18px 6px rgba(128,128,128,1);
+        -moz-box-shadow: 10px 9px 18px 6px rgba(128,128,128,1);
+        box-shadow: 10px 9px 18px 6px rgba(128,128,128,1);
+        
+        h2{
+            color: black;
+            text-align: center;
+            font-weight: 550;
+        }
+        table{
+            margin-bottom: 10px;
+            width: 100%;
+            border: 1px solid black;
+            border-collapse: collapse; 
+        }
+        th, td {
+            padding: 15px;
+            padding-right: 5px;
+            border: 1px solid black;
+            border-collapse: collapse;
+          } 
+    }
+}
+@media only screen and (max-width: 500px){
+    .recordCont{
+        &__recordTable{
+            h2{
+                font-size: 20px;
+                margin-bottom: 10%;
+            }
+            th, td {
+                font-size: 10px;
+                padding: 5px;
+              } 
+        }
+    }  
+}

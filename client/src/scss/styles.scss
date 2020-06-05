@@ -1,0 +1,34 @@
+@import "partials/home";
+@import "partials/contact";
+@import "partials/accomodations";
+@import "partials/navigation";
+@import "partials/signin";
+@import "partials/footer";
+@import "partials/cardSpec";
+@import "partials/ad-side";
+@import "partials/adminContact";
+@import "partials/enquiry";
+@import "partials/record";
+@import "partials/setting";
+@import "partials/ad-stablish";
+@import "partials/est-rec";
+@import "partials/searchbar";
+@import "partials/header";
+@import "partials/cardDetail";
+@import "partials/enqForm";
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: whitesmoke;
+    overflow-x: hidden;
+    h1,h2,h3,h4,h5,h6
+    {
+        color: white;
+    }
+    
+}

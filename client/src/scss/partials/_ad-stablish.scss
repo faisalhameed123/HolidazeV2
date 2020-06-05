@@ -1,0 +1,94 @@
+.addEstabCont{
+    .header{
+        background: url('../../images/night.jpg') no-repeat;
+        height: 174%;
+        background-size: cover; 
+    }
+    &__Form{
+        background-color:white;
+        margin-top: 21%;
+        margin-bottom: 10%;
+        -webkit-box-shadow: 10px 9px 18px 6px rgba(128,128,128,1);
+        -moz-box-shadow: 10px 9px 18px 6px rgba(128,128,128,1);
+        box-shadow: 10px 9px 18px 6px rgba(128,128,128,1);
+        h2{
+            color: black;
+            font-weight: 550;
+            text-align: center;
+            padding-bottom: 20px;
+        }
+        input{
+            margin-left: 10%;
+            width: 80%;
+            height: 30px;   
+        }
+        &__self{
+            &__options{
+                &__true,&__false{
+                    &--input{
+                        margin-top: -10px;
+                    }
+                }
+            }
+        } 
+        &__submit{
+            button{
+                width: 100px;
+                height: 50px;
+                color: white;
+                margin-top: 10%;
+                margin-bottom: 10%;
+                background-color:rgb(90, 68, 68) ;              
+            }   
+        }
+    }
+}
+@media only screen and (max-width: 500px){
+    .addEstabCont{
+        .header{
+            background: url('../../images/night.jpg') no-repeat;
+            height: 174%;
+            background-size: cover; 
+        }
+        &__Form{
+            background-color:white;
+            margin-top: 21%;
+            margin-bottom: 10%;
+            h2{
+                font-size: 22px;
+                color: black;
+                font-weight: 550;
+                text-align: center;
+                padding-bottom: 20px;
+            }
+            input{
+                margin-left: 10%;
+                width: 80%;
+                height: 30px;   
+            }
+            &__self{
+                &__options{
+                    label{
+                        margin-top: 10px;
+                        margin-left: 20%;
+                    }
+                    &__true,&__false{
+                        &--input{
+                            margin-top: -30px;
+                        }
+                    }
+                }
+            } 
+            &__submit{
+                button{
+                    width: 100px;
+                    height: 50px;
+                    color: white;
+                    margin-top: 10%;
+                    margin-bottom: 10%;
+                    background-color:rgb(90, 68, 68) ;              
+                }   
+            }
+        }
+    }   
+}

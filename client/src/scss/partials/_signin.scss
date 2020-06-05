@@ -1,0 +1,47 @@
+.signCont{
+    .header{
+    height: 110%;
+    background: url('../../images/dubai.jpg') no-repeat;  
+    background-size: cover;
+    }
+    &__signForm{
+        background-color:white;
+        margin-top: 8%;
+        margin-bottom: 10%;
+        h2{
+            color: black;
+            font-weight: 550;
+            text-align: center;
+        }
+        input{
+            margin-left: 10%;
+            width: 80%;
+            height: 30px;   
+        }
+        &__name{
+            margin-top: 5%; 
+            margin-bottom: 5%;
+        }
+        &__pass{ 
+            margin-bottom: 5%;    
+        }
+        &__submit{
+            button{
+                width: 100px;
+                height: 50px;
+                color: white;
+                margin-bottom: 10%;
+                background-color:rgb(90, 68, 68) ;   
+            }   
+        }
+    }
+    .error{
+        text-align: center;
+        margin-top: 10px;
+        color: red;
+        display: block;
+    }
+    .error__hide{
+        display: none;
+    }    
+}

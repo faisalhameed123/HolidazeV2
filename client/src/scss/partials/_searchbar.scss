@@ -1,0 +1,31 @@
+.searcharea{
+    width: 100%;
+    input{
+        height: 50px;
+        width: 40%;
+        float: left;
+        margin-left: 25%;
+    }
+    button{
+        width: 100px;
+        background-color: rgb(90, 68, 68);
+        height: 50px;
+    }
+}
+// @media only screen and (max-width: 500px){
+//     .searcharea{
+//         width: 100%;
+//         margin-top: 15%;
+//         input{
+//             height: 50px;
+//             width: 40%;
+//             float: left;
+//             margin-left: 25%;
+//         }
+//         button{
+//             width: 100px;
+//             background-color: rgb(90, 68, 68);
+//             height: 50px;
+//         }
+//     } 
+// }
