@@ -1,4 +1,7 @@
 # HOLIDAZE - HOTEL BOOKING SITE
+USERNAME : admin
+PASSWORD : admin123
+
 
 This readme file will give you the tools you need to complete the project and explains what the different files are and how to use them.
 
